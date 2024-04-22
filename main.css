@@ -1,0 +1,48 @@
+
+body
+{
+    background-color: #111111;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+header
+{
+    background-color: #262626;
+    border-bottom: 2px solid #434343;
+}
+
+section
+{
+    background-color: #262626;
+}
+.section-title,.navbar-brand:hover
+{
+    font-family: "Lobster", cursive;
+    font-size: 2em;
+    color: #ef4b62;
+}
+
+
+.navbar-brand img
+{
+    height: 100px;
+}
+.navbar .nav-link
+{
+    font-size: 1.2em;
+    color: #ef4b62;
+    margin: 10px;
+    text-align: center;
+}
+.navbar .nav-link:hover{
+    background-color: #434343;
+}
+.nav .nav-link.active
+{
+    background-color: #ef4b62;
+    color: #fff;
+}
+.navbar-toggler
+{
+    background-color: #ef4b62;
+}

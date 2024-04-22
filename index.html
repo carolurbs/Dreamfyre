@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="./Imagens/Logos/logoDFSV3.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamfyre Studios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0 fw-bold"> <img src="./Imagens/Logos/logoDFSV3.png" alt=""> Dreamfyre Studios</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-itens"><a class="nav-link fw-bold " href="#sobre"><i class="bi bi-house-door me-1"></i>Sobre</a></li>
+                    <li class="nav-itens"><a class="nav-link fw-bold " href="#areas"><i class="bi bi-pencil me-1"></i>Habilidades</a></li>
+                    <li class="nav-itens"><a class="nav-link fw-bold " href="#portfolio"><i class="bi bi-laptop me-1"></i>Portfólio</a></li>
+                    <li class="nav-itens"><a class="nav-link fw-bold" href="#contato"> <i class="bi bi-chat-square me-1"></i>Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="header">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./Imagens/Slides/Flashpocalipse.webp" alt="Flashpocalipse">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000" >
+                        <img src="./Imagens/Slides/Gataria.webp" alt="Gataria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./Imagens/Slides/Hope.webp" alt="Hope">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./Imagens/Slides/Hope2.webp" alt="Hope">
+                    </div>
+                </div>
+                <div>
+                    <button class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon" data-bs-target="#carousel" data-bs-slide="prev"></span>
+                    </button>
+                    <button class="carousel-control-next">
+                        <span class="carousel-control-next-icon" data-bs-target="#carousel" data-bs-slide="next"></span>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                        <img class="d-block w-100 rounded" src="./Imagens/Logos/logoDFSV3.png" alt="Logo Dreamfyre">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre a Dreamfyre</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eum libero quasi sed provident praesentium accusantium fugiat, est similique eaque?</p>
+                            <h3 class="section-title">Sobre mim </h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus deleniti quidem nihil corporis excepturi? Placeat doloribus aliquam sequi omnis maiores.</p>
+                            <ul>
+                                <li>Unity</li>
+                                <li> Unreal</li>
+                                <li> Blender</li>
+                                <li>Figma</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                            </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
