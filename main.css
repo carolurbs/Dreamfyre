@@ -46,3 +46,11 @@ section
 {
     background-color: #ef4b62;
 }
+.carousel-item img
+{
+max-width: 100vw;
+}
+.carousel button 
+{
+    padding: 5px;
+}
