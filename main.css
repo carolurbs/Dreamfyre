@@ -14,6 +14,7 @@ header
 section
 {
     background-color: #262626;
+
 }
 .section-title,.navbar-brand:hover
 {
@@ -26,16 +27,18 @@ section
 .navbar-brand img
 {
     height: 100px;
-}
-.navbar .nav-link
+} .nav-link
 {
     font-size: 1.2em;
     color: #ef4b62;
     margin: 10px;
     text-align: center;
+    
 }
-.navbar .nav-link:hover{
+.nav-link:hover{
     background-color: #434343;
+    color: #fff;
+    font-weight: 800;
 }
 .nav .nav-link.active
 {
@@ -53,4 +56,9 @@ max-width: 100vw;
 .carousel button 
 {
     padding: 5px;
+}
+
+#skills img
+{
+    margin: 25px 50px;
 }
