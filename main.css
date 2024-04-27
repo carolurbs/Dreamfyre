@@ -118,8 +118,17 @@ textarea.form-control
    
     display: flex;
     flex-direction: column;
-    align-items: center;
-      
+    align-items: center;     
+  }
+  .small
+  {
+    font-size: 2.3em;
+    padding: 0%;
+    
+  }
+  .align
+  {
+    margin-top: 7px;
   }
 
 @media screen and (max-width:767px){
