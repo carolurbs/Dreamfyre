@@ -130,6 +130,25 @@ textarea.form-control
   {
     margin-top: 7px;
   }
+
+  .card
+  {
+    background-color: #262626;
+    border: 2px solid #ef4b62;
+    border-radius: 15%;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .card:hover{
+      background-color: #434343;
+      
+    }
+
+    .card-link 
+    {
+        text-decoration: none;
+    }
+    
 @media screen and (max-width:767px){
 
 .navbar-brand img
