@@ -8,8 +8,7 @@ const firebaseConfig = {
     appId: "1:638732952802:web:20e2404d944f6158d66abb"
   };
 
-  const app = initializeApp(firebaseConfig);
-  const firestore= firebase.firestore();
+  firebase.initializeApp(firebaseConfig);
   var infoRef = firebase.database().ref('infos')
 
 $(document).ready(function(){
