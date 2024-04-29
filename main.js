@@ -1,6 +1,6 @@
 
-import { initializeApp } from "/firebase/app";
-import { getFirestore, collection, getDocs } from "/firebase/firestore";
+import { initializeApp } from "/node_modules/firebase/app";
+import { getFirestore, collection, getDocs } from "/node_modules/firebase/firestore";
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
