@@ -1,5 +1,6 @@
 
 import { initializeApp } from "/firebase/app";
+import { getFirestore, collection, getDocs } from "/firebase/firestore";
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
@@ -10,6 +11,7 @@ const firebaseConfig = {
     appId: "1:638732952802:web:20e2404d944f6158d66abb"
   };
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 var infoRef = firebase.database().ref('infos')
 
 $(document).ready(function(){
