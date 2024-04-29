@@ -1,6 +1,6 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import { getFirestore} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
-import {getDatabase} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js"
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js';
+import { getFirestore} from 'https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js';
+import {getDatabase} from 'https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js';
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
