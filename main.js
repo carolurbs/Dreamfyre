@@ -1,8 +1,3 @@
-
-$(document).ready(function(){
-    console.log($('.btn'))
-   $('#tel').mask('(00)00000-0000');
-})
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
@@ -15,6 +10,10 @@ const firebaseConfig = {
   const app = initializeApp(firebaseConfig);
   var infoRef = firebase.database().ref('infos')
 
+$(document).ready(function(){
+    console.log($('.btn'))
+   $('#tel').mask('(00)00000-0000');
+})
 
 $('form').on('submit',function(e){
     e.preventDefault();
