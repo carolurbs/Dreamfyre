@@ -1,7 +1,5 @@
 
-import { initializeApp } from  'firebase/app';
-
-
+import { initializeApp } from  "firebase/app";
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
