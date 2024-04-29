@@ -1,5 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import { getFirestore} from "";
+import { getFirestore} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
+import {getDatabase} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js"
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
@@ -10,7 +11,8 @@ const firebaseConfig = {
     appId: "1:638732952802:web:20e2404d944f6158d66abb"
   };
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+const fs = getFirestore(app);
+const db = getDatabase(app);
 var infoRef = firebase.database().ref('infos')
 
 $(document).ready(function(){
