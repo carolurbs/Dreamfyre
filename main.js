@@ -10,7 +10,6 @@ const firebaseConfig = {
     appId: "1:638732952802:web:20e2404d944f6158d66abb"
 };
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
 const app = initializeApp(firebaseConfig);
 var infoRef = firebase.database().ref('infos')
 
