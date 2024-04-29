@@ -11,7 +11,14 @@ header
     border-bottom: 2px solid #434343;
     width: 100vw;
 }
-
+footer
+{
+    background-color: #262626;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 section
 {
 
@@ -148,6 +155,14 @@ textarea.form-control
     {
         text-decoration: none;
     }
+  footer p
+  {
+    font-size: 1em;
+    color: #ef4b62;
+    font-weight: 800;
+    padding-top: 2%;
+    margin: 2%;
+  }
     
 @media screen and (max-width:767px){
 
@@ -166,6 +181,30 @@ textarea.form-control
 {
    text-align: center;
    margin: 5px;
+}
+.tools
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    text-align: center;
+}
+.social-links, .center-content
+{
+    justify-content: center;
+    text-align: center;
+}
+.center-text{
+    text-align: center;
 }
 }
 
