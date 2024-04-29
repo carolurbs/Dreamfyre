@@ -1,19 +1,18 @@
 
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from  'firebase/app';
 
-const firebaseApp =initializeApp(
-    {
-        apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
-        authDomain: "site-dreamfyre.firebaseapp.com",
-        databaseURL: "https://site-dreamfyre-default-rtdb.firebaseio.com",
-        projectId: "site-dreamfyre",
-        storageBucket: "site-dreamfyre.appspot.com",
-        messagingSenderId: "638732952802",
-        appId: "1:638732952802:web:20e2404d944f6158d66abb"
-    }) ;
 
-    
+const firebaseConfig = {
+    apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
+    authDomain: "site-dreamfyre.firebaseapp.com",
+    databaseURL: "https://site-dreamfyre-default-rtdb.firebaseio.com",
+    projectId: "site-dreamfyre",
+    storageBucket: "site-dreamfyre.appspot.com",
+    messagingSenderId: "638732952802",
+    appId: "1:638732952802:web:20e2404d944f6158d66abb"
+};
 
+const app = initializeApp(firebaseConfig);
 var infoRef = firebase.database().ref('infos')
 
 $(document).ready(function(){
