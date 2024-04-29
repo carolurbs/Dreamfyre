@@ -7,7 +7,6 @@ const firebaseConfig = {
     messagingSenderId: "638732952802",
     appId: "1:638732952802:web:20e2404d944f6158d66abb"
   };
-
   const app = initializeApp(firebaseConfig);
   var infoRef = firebase.database().ref('infos')
 
