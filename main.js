@@ -13,7 +13,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const fs = getFirestore(app);
 const db = getDatabase(app);
-var infoRef = firebase.database().ref('infos')
+var infoRef = firebase.database(app).ref('infos')
 
 $(document).ready(function(){
     console.log($('.btn'))
