@@ -1,6 +1,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyCaX0xUxxA4CGZi21-oTiJL6O1N5ouzCAg",
     authDomain: "site-dreamfyre.firebaseapp.com",
+    databaseURL: "https://site-dreamfyre-default-rtdb.firebaseio.com",
     projectId: "site-dreamfyre",
     storageBucket: "site-dreamfyre.appspot.com",
     messagingSenderId: "638732952802",
@@ -8,6 +9,7 @@ const firebaseConfig = {
   };
 
   const app = initializeApp(firebaseConfig);
+  const firestore= firebase.firestore();
   var infoRef = firebase.database().ref('infos')
 
 $(document).ready(function(){
