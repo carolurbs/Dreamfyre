@@ -22,11 +22,6 @@ $(document).ready(function(){
 
 $('form').on('submit',function(e){
     e.preventDefault();
-    var name = $('#nome').val();
-    var email = $('#email').val();
-    var telephone = $('#tel').val();
-    var message = $('#mensagem').val();
-   saveInfo(name,email,telephone,message);
     $('input').val('');
     
 })
