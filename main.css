@@ -164,6 +164,12 @@ textarea.form-control
     padding-top: 2%;
     margin: 2%;
   }
+  #contato
+  {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between
+;  }
     
 @media screen and (max-width:767px){
 
