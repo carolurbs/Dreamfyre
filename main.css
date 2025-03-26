@@ -146,6 +146,7 @@ textarea.form-control
     border-radius: 15%;
     text-decoration: none;
     margin: 10px;
+    height: 100%;
   }
   .card:hover{
       background-color: #434343;
