@@ -147,7 +147,6 @@ textarea.form-control
     border-radius: 15%;
     text-decoration: none;
     margin: 10px;
-    height: 100%;
   }
   .card:hover{
       background-color: #434343;
@@ -235,10 +234,12 @@ footer p{
 }
 .card{
     font-size: 0.5em;
+    margin-bottom: 20px;
 }
 @media screen and (min-width:768px){
     .card{
         font-size: 0.5em;
+        margin-bottom: 20px;
     }
     .image-viewport
     {
