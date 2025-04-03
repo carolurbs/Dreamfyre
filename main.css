@@ -80,6 +80,15 @@ max-width: 100vw;
     border: 5px solid #fff;
     box-shadow: 8px 8px 6px rgba(0,0,0,.7);
 }
+.tab-content{
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio h2
+{
+    margin-bottom: 50px;
+}
 .btn:hover
 {
     background-color: #fff;
@@ -226,6 +235,9 @@ footer p{
 }
 
 @media screen and (min-width:768px){
+    .card{
+        font-size: 0.5em;
+    }
     .image-viewport
     {
       display: flex;
