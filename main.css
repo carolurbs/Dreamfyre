@@ -169,7 +169,7 @@ textarea.form-control
         padding : 5px;
     }
     .card-body p{
-        font-size: 1.2em;
+        font-size: 2em;
         color: #ef4b62;
         font-weight: 600;
         margin-top: 20px;
@@ -233,11 +233,10 @@ footer p{
     text-align: center;
 }
 }
-
+.card{
+    font-size: 0.5em;
+}
 @media screen and (min-width:768px){
-    .card{
-        font-size: 0.5em;
-    }
     .image-viewport
     {
       display: flex;
