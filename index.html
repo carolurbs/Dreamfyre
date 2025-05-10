@@ -29,7 +29,8 @@
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-itens"><a class="nav-link active fw-bold " href="#sobre"><i class="bi bi-house-door me-1"></i>Sobre</a></li>
+                    <li class="nav-itens"><a class="nav-link active fw-bold " href="#home"><i class="bi bi-house me-1"></i>Início</a></li>
+                    <li class="nav-itens"><a class="nav-link fw-bold " href="#sobre"><i class="bi bi-person me-1"></i>Sobre</a></li>
                     <li class="nav-itens"><a class="nav-link fw-bold " href="#skills"><i class="bi bi-brush me-1"></i>Habilidades</a></li>
                     <li class="nav-itens"><a class="nav-link fw-bold " href="#portfolio"><i class="bi bi-laptop me-1"></i>Portfólio</a></li>
                     <li class="nav-itens"><a class="nav-link fw-bold" href="#contato"> <i class="bi bi-chat-square me-1"></i>Contato</a></li>
@@ -38,27 +39,26 @@
         </div>
     </header>
     <!--#endregion header  -->
-      <!--#region main  -->
+    <!--#region main  -->
     <main data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
-      <!--#region sobre-->
-        <section id="sobre">
-            <!--#region carousel  -->
+        <!--#region section carousel  -->
+    <section id="home">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="./Imagens/Slides/slide_1.png" alt="Desenvolvedora Front-End">
+                        <img src="./Imagens/Slides/slide_1.gif" alt=" Caroline Urbainski">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000" >
-                        <img src="./Imagens/Slides/slide_2.png" alt="Site do Flashpocalipse">
+                        <img src="./Imagens/Slides/slide_2.gif" alt="Desenvolvedora Front-end">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./Imagens/Slides/slide_3.png" alt="Lista de Contatos">
+                        <img src="./Imagens/Slides/slide_3.gif" alt="Foco em Experiência do Usuário">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./Imagens/Slides/slide_4.png" alt="Efood">
+                        <img src="./Imagens/Slides/slide_4.gif" alt="Tecnologias e Projetos">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./Imagens/Slides/slide_5.png" alt="Saiba mais">
+                        <img src="./Imagens/Slides/slide_5.gif" alt="Saiba mais">
                     </div>
                 </div>
                 <div>
@@ -75,10 +75,12 @@
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
-
                 </div>
             </div>
-            <!--#endregion carousel  -->
+        </section>
+        <!--#endregion section carousel-->
+    <!--#region sobre-->
+        <section id="sobre">
             <!--#region sobre-container-->
             <div class="pt-5 pb-5">
                 <div class="container">
@@ -88,9 +90,19 @@
                         </div>
                         <div class="col-md-7">
                             <h3 class="section-title text-viewport">Sobre mim </h3>
+                            <hr>
                             <p class="text-viewport">
-                                Sou Caroline. Me formei em 2022 em Design de Jogos e Entretenimento Digital pela Universidade do Vale do Itajaí (UNIVALI). Sou certificada também com Engenheira Front-end na Escola Britânica de Artes Criativas e Tecnologia (EBAC), iniciando, então, minha transição de carreira. 
-                                Elaborei alguns projetos, tanto pessoais como também aqueles requeridos pela EBAC e outras certificações em tecnologias Front-end. Dentre eles, esse site em si, o site do Flashpocalipse, dos quais usei HTML, CSS e Bootstrap. Além disso possuo proficiência em lingua inglesa, experiência com trabalho em equipe e mediação de conflitos. Estou também sempre disposta a aprender novas tecnologias e a criar novas soluções para problemas do dia-a-dia.                             </p>
+                                Olá, muitas boas vindas! 
+                                Sou Caroline, mas pode me chamar de Carol!
+                                Minha história com a tecnologia começa na infância. Sempre fui uma criança curiosa que mexia em tudo. Os computadores não ficavam de fora. Era emocionante explorar os novos horizontes que a tecnologia podia me proporcionar. Era como se eu desbravasse um mundo completamente novo. Além disso tinha uma grande paixão por jogos digitais. Isso facilitou para minha escolha de fazer Design de Games na faculdade. E atualmente decidi por ampliar meus conhecimentos com FrontEnd, desbravando assim um novo mundo! 
+                                Fique a vontade para explorar mais meu universo abaixo!
+                                </p>
+                                <h3 class="section-title text-viewport">Sobre a Dreamfyre </h3>
+                                <hr>
+                                <p>Dreamfyre Studios surgiu em 2022, quando ingressei no mundo freelancer e hoje é minha marca pessoal. Representa não só quem eu sou, mas também meus sonhos, objetivos e ideais. Aí que veio o nome, a primeira parte, como já dito, reprenta os sonhos. Fyre reprenta os ideais, a paixão por tecnologia. Aquilo que me move para que eu cumpra meus objetivos. Então veio a ideia da logo, uma fênix: ser mitológico capaz de renascer das cinzas. Uma criatura poderosa, sem dúvidas. Essa simbologia serve para me inspirar quando o caminho a frente parecer tortuoso e me lembrar toda minha trajetória até aqui.</p>
+                                <div class="btn-container">
+                                    <a href="./CV/CV _Caroline Urbainski_FrontEnd.pdf" download="CV_CarolineUrbainski.pdf" class="action-btn"><i class="bi bi-download mx-2"></i>Baixe meu currículo aqui</a>
+                                </div>
                             </div>
                     </div>
                 </div>
@@ -103,6 +115,7 @@
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center pb-15 mb-15">Habilidades</h2>
+                    <hr>
                 </div>
                 <div class="row">
                     <aside class="col-md-2">
@@ -112,74 +125,98 @@
                             <button type="button" data-bs-toggle="tab" data-bs-target="#preproc" class="nav-link text-start"> Pré-Processamento</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#frameworks" class="nav-link text-start"> Frameworks</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#tests" class="nav-link text-start">Testes</button>
-
-
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tools" class="nav-link text-start">Ferramentas</button>
                         </nav>
                     </aside>
                     <div class="col-md-10 m-15">
-                       <div class="tab-content">
+                    <div class="tab-content">
                         <div class="tab-pane active" id="languages">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/HTML.svg" class="d-block w-75  rounded p-2" alt="HTML">   
+                                    <img src="./Imagens/Thumbs/HTML.svg" class="d-block w-50 rounded p-2" alt="HTML">
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/CSS.svg" class="d-block w-75 rounded p-2" alt="CSS">   
+                                    <img src="./Imagens/Thumbs/CSS.svg" class="d-block w-50 rounded p-2" alt="CSS">
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/JS.svg" class="d-block w-75 rounded p-2" alt="JavaScript">   
+                                    <img src="./Imagens/Thumbs/JS.svg" class="d-block w-50 rounded p-2" alt="JavaScript">   
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/TS.svg" class="d-block w-75 rounded p-2" alt="TypeScript">   
+                                    <img src="./Imagens/Thumbs/TS.svg" class="d-block w-50 rounded p-2" alt="TypeScript">   
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="libraries">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/JQuery.svg" class="d-block w-75 rounded p-2" alt="LESS">   
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/JQuery.svg" class="d-block w-50 rounded p-2" alt="LESS">   
                                 </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Bootstrap.svg" class="d-block w-75 rounded p-2" alt="LESS">   
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Bootstrap.svg" class="d-block w-50 rounded p-2" alt="LESS">   
                                 </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/React.svg" class="d-block w-75 rounded p-2" alt="Gulp">   
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/React.svg" class="d-block w-50 rounded p-2" alt="Gulp">   
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="preproc">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/SASS.svg" class="d-block w-75  rounded p-2" alt="SASS">   
+                                    <img src="./Imagens/Thumbs/SASS.svg" class="d-block w-50  rounded p-2" alt="SASS">   
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Less.svg" class="d-block w-75 rounded p-2" alt="LESS">   
+                                    <img src="./Imagens/Thumbs/Less.svg" class="d-block w-50 rounded p-2" alt="LESS">   
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Gulp.svg" class="d-block w-75 rounded p-2" alt="Gulp">   
+                                    <img src="./Imagens/Thumbs/Gulp.svg" class="d-block w-50 rounded p-2" alt="Gulp">   
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Grunt.svg" class="d-block w-75 rounded p-2" alt="Grunt">   
+                                    <img src="./Imagens/Thumbs/Grunt.svg" class="d-block w-50 rounded p-2" alt="Grunt">   
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="frameworks">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Vue.svg" class="d-block w-75  rounded p-2" alt="SASS">   
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Vue.svg" class="d-block w-50  rounded p-2" alt="SASS">   
                                 </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Angular.svg" class="d-block w-75 rounded p-2" alt="LESS">   
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Angular.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Tailwind.svg" class="d-block w-50 rounded p-2" alt="LESS">   
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tests">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Jest.svg" class="d-block w-75  rounded p-2" alt="SASS">   
+                                <div class="col-md-6">
+                                    <img src="./Imagens/Thumbs/Jest.svg" class="d-block w-50  rounded p-2" alt="SASS">   
                                 </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Cypress.svg" class="d-block w-75 rounded p-2" alt="LESS">   
+                                <div class="col-md-6">
+                                    <img src="./Imagens/Thumbs/Cypress.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tools">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Git.svg" class="d-block w-50  rounded p-2" alt="SASS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/GitHub.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/RTK.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Figma.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Notion.svg" class="d-block w-50 rounded p-2" alt="LESS">   
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./Imagens/Thumbs/Trello.svg" class="d-block w-50 rounded p-2" alt="LESS">   
                                 </div>
                             </div>
                         </div>
@@ -188,11 +225,12 @@
             </div>
         </section>
         <!--#endregion skills  -->
-      <!--#region portfolio  -->
-      <section id="portfolio" class="pt-5 pb-5">
+    <!--#region portfolio  -->
+    <section id="portfolio" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <h2 class="section-title text-center mb-15 pb-15">Portfolio</h2>
+                <hr>
                 <div class="row">
                     <div class="col-md-4">
                         <a class="card-link" href="https://lista-compras-angular-two.vercel.app" target="_blank">
@@ -234,6 +272,7 @@
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center">Fale Comigo</h2>
+                    <hr>
                     <div class="row">
                         <div class="col-md-7 center-content">
                             <form action="https://formspree.io/f/mldjlqrv"method="POST">
@@ -244,6 +283,10 @@
                                 <div>
                                     <label class="form-label" for="email">Seu E-mail </label>
                                     <input name="email" type="email" id="email" placeholder="exemplo@exemplo.com" class="form-control" required>
+                                </div>
+                                <div>
+                                    <label class="form-label" for="subject">Assunto</label>
+                                    <input name="subject" type="subject" id="subject" placeholder="Qual assunto da mensagem?" class="form-control" required>
                                 </div>
                                 <div>
                                     <label class="form-label" for="mensagem">Sua mensagem(opcional) </label>
@@ -264,7 +307,7 @@
                             </div>
                             <div class="row">
                                 <h3 class="section-title fs-4 mt-5 social-links">E-mail</h3>
-                                <p class="social-links">carolineurb.dev@outlook.com</p>
+                                <a href="mailto:carolineurb.dev@outlook.com" class="social-links email-link">carolineurb.dev@outlook.com</a>
                             </div>
                         </div>
                     </div>
