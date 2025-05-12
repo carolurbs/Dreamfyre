@@ -11,19 +11,12 @@ header
     border-bottom: 2px solid #434343;
     width: 100vw;
 }
-footer
-{
-    background-color: #262626;
-    width: 100vw;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 section
 {
     background-color: #262626;
     width: 100vw;
 }
+
 .section-title,.navbar-brand:hover
 {
     font-family: "Lobster", cursive;
@@ -110,19 +103,64 @@ hr{
     box-shadow: 8px 8px 6px rgba(0,0,0,.7);
 }
 .tab-content{
-    padding: 100px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
+}
+.tab-content card{
+    max-width: fit-content;
+    border: 2px solid #ef4b62;
+    border-radius: 50%
+}
+.tab-content img
+{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
 }
 aside{
     border: 1px solid #ef4b62;
     border-radius: 20px;
-    padding: 10px;
 }
 
 #portfolio h2
 {
     margin-bottom: 50px;
+}
+
+.card
+{
+    background-color: #262626;
+    border: 2px solid #ef4b62;
+    border-radius: 15%;
+    text-decoration: none;
+    margin: 10px;
+}
+.card:hover
+{
+    background-color: #434343;  
+}
+.card-link 
+{     
+    text-decoration: none;
+}
+.card-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-body img
+{
+    margin-bottom: 20px;
+    padding : 5px;
+}
+#contato
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
 }
 .form-label
 {
@@ -163,45 +201,13 @@ textarea.form-control
     color: #fff;
     font-weight: 500;
 }
-.align
-{
-    margin-top: 7px;
-}
-.card
+footer
 {
     background-color: #262626;
-    border: 2px solid #ef4b62;
-    border-radius: 15%;
-    text-decoration: none;
-    margin: 10px;
-}
-.card:hover
-{
-    background-color: #434343;  
-}
-.card-link 
-{     
-    text-decoration: none;
-}
-.card-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.card-body img
-{
-    margin-bottom: 20px;
-    padding : 5px;
-}
-.card-body p
-{
-    font-size: 2em;
-    color: #ef4b62;
-    font-weight: 600;
-    margin-top: 20px;
-    text-align: center;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 footer p
 {
@@ -211,12 +217,7 @@ footer p
     padding-top: 2%;
     margin: 2%;
 }
-#contato
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-}
+
 
 @media screen and (max-width:767px){
 .navbar-brand img
@@ -235,12 +236,7 @@ footer p
     text-align: center;
     margin: 5px;
 }
-.tools
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 
 footer
 {
@@ -264,10 +260,13 @@ footer p{
 }
 @media screen and (min-width:768px)
 {
+    
+    
     .image-viewport
     {
     display: flex;
     align-items: center;
     justify-content: center;
     }
+ 
 }
