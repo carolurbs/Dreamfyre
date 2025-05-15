@@ -81,6 +81,7 @@ max-width: 100vw;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 hr{
     color: #ef4b62;
@@ -209,7 +210,7 @@ footer
     flex-direction: row;
     justify-content: space-between;
 }
-footer p
+.footer-content
 {
     font-size: 1em;
     color: #ef4b62;
@@ -217,7 +218,10 @@ footer p
     padding-top: 2%;
     margin: 2%;
 }
-
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 @media screen and (max-width:767px){
 .navbar-brand img
@@ -245,7 +249,7 @@ footer
     align-items: center;
     
 }
-footer p{
+footer p, footer a{
     text-align: center;
 }
 .social-links, .center-content
@@ -268,5 +272,4 @@ footer p{
     align-items: center;
     justify-content: center;
     }
- 
 }

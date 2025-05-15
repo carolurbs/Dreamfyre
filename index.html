@@ -12,15 +12,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <!--Bootstap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!--Icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">    <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <script src="https://kit.fontawesome.com/b236a52e02.js" crossorigin="anonymous"></script>
+
     <!--Main Style-->
     <link rel="stylesheet" href="main.css">
 </head>
 <!-- #endregion head  -->
 <body>
-      <!--#region header  -->
+    <!--#region header  -->
     <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
         <div class="container">
             <h1 class="navbar-brand section-title m-0 fw-bold"> <img  src="./Imagens/Logos/logoDFSV3.webp" alt=""> Dreamfyre Studios</h1>
@@ -33,7 +34,7 @@
                     <li class="nav-itens"><a class="nav-link fw-bold " href="#sobre"><i class="bi bi-person me-1"></i>Sobre</a></li>
                     <li class="nav-itens"><a class="nav-link fw-bold " href="#skills"><i class="bi bi-brush me-1"></i>Habilidades</a></li>
                     <li class="nav-itens"><a class="nav-link fw-bold " href="#portfolio"><i class="bi bi-laptop me-1"></i>Portfólio</a></li>
-                    <li class="nav-itens"><a class="nav-link fw-bold" href="#contato"> <i class="bi bi-chat-square me-1"></i>Contato</a></li>
+                    <li class="nav-itens"><a class="nav-link fw-bold" href="#contato"><i class="bi bi-chat-square me-1"></i>Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -79,17 +80,17 @@
             </div>
         </section>
         <!--#endregion section carousel-->
-    <!--#region sobre-->
+        <!--#region sobre-->
         <section id="sobre">
             <!--#region sobre-container-->
             <div class="pt-5 pb-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 image-viewport">
-                        <img  class=" w-75 dev" src="./Imagens/Logos/eu.jpg" alt="Foto da Desenvolvedora">
+                        <img  class=" w-75 dev mb-2" src="./Imagens/Logos/eu.jpg" alt="Foto da Desenvolvedora">
                         </div>
                         <div class="col-md-7">
-                            <h3 class="section-title text-viewport">Sobre mim </h3>
+                            <h3 class="section-title text-viewport"> <i class="bi bi-person me-1"></i> Sobre mim </h3>
                             <hr>
                             <p class="text-viewport">
                                 Olá, muitas boas vindas! 
@@ -97,10 +98,27 @@
                                 Minha história com a tecnologia começa na infância. Sempre fui uma criança curiosa que mexia em tudo. Os computadores não ficavam de fora. Era emocionante explorar os novos horizontes que a tecnologia podia me proporcionar. Era como se eu desbravasse um mundo completamente novo. Além disso tinha uma grande paixão por jogos digitais. Isso facilitou para minha escolha de fazer Design de Games na faculdade. E atualmente decidi por ampliar meus conhecimentos com FrontEnd, desbravando assim um novo mundo! 
                                 Fique a vontade para explorar mais meu universo abaixo!
                                 </p>
-                                <h3 class="section-title text-viewport">Sobre a Dreamfyre </h3>
+                                <h3 class="section-title text-viewport"><i class="bi bi-shop-window me-3"></i>Sobre a Dreamfyre </h3>
                                 <hr>
                                 <p class="text-viewport">Dreamfyre Studios surgiu em 2022, quando ingressei no mundo freelancer e hoje é minha marca pessoal. Representa não só quem eu sou, mas também meus sonhos, objetivos e ideais. Aí que veio o nome, a primeira parte, como já dito, reprenta os sonhos. Fyre reprenta os ideais, a paixão por tecnologia. Aquilo que me move para que eu cumpra meus objetivos. Então veio a ideia da logo, uma fênix: ser mitológico capaz de renascer das cinzas. Uma criatura poderosa, sem dúvidas. Essa simbologia serve para me inspirar quando o caminho a frente parecer tortuoso e me lembrar toda minha trajetória até aqui.</p>
-                                <div class="btn-container">
+                                <h3 class="section-title text-center mt-2 mb-2"><i class="bi bi-terminal me-2"></i> Ferramentas</h3>
+                                <hr>
+                                <ul class="d-flex nav justify-content-center mb-2">
+                                <li><i class="fa-brands fa-html5 section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-css3-alt section-title me-2 mt-2"></i></li>
+                                <li><i class="bi bi-javascript section-title me-2 "></i></li>
+                                <li><i class="bi bi-typescript section-title me-2"></i></li>
+                                <li><i class="bi bi-bootstrap-fill section-title me-2"></i></li>
+                                <li><i class="fa-brands fa-react section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-angular section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-vuejs section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-sass section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-less section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-gulp section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-figma section-title me-2 mt-2"></i></li>
+                                <li><i class="fa-brands fa-git-alt section-title me-2 mt-2"></i></li>
+                            </ul>
+                            <div class="btn-container mt-3">
                                     <a href="./CV/CV _Caroline Urbainski_FrontEnd.pdf" download="CV_CarolineUrbainski.pdf" class="action-btn"><i class="bi bi-download mx-2"></i>Baixe meu currículo aqui</a>
                                 </div>
                             </div>
@@ -111,125 +129,52 @@
         </section>
         <!--#endregion sobre  -->
         <!--#region skills  -->
+        <!--
         <section class="pt-5 pb-5" id="skills">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center pb-15 mb-15">Habilidades</h2>
+                    <h2 class="section-title text-center pb-15 mb-15"><i class="bi bi-brush me-2">Habilidades</h2>
                     <hr>
                 </div>
                 <div class="row">
                     <aside class="col-md-4">
                         <nav class="nav nav-pills flex-column ">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#languages" class="nav-link active text-start"> Linguagens</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#libraries" class="nav-link text-start">Bibliotecas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#preproc" class="nav-link text-start"> Pré-Processamento</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#frameworks" class="nav-link text-start"> Frameworks</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#tests" class="nav-link text-start">Testes</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#tools" class="nav-link text-start">Ferramentas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#landing" class="nav-link active text-start"> Landing Pages</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#com" class="nav-link text-start">E-commerce</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#design" class="nav-link text-start">Design System</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tests" class="nav-link text-start"> Testes</button>
+                            
                         </nav>
                     </aside>
                     <div class="col-md-8 m-15">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="languages">
+                        <div class="tab-pane active" id="landing">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/HTML.svg" class="d-flex" alt="HTML">
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/CSS.svg" class="d-flex" alt="CSS">
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/JS.svg" class="d-flex" alt="JavaScript">   
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/TS.svg" class="d-flex" alt="TypeScript">   
-                                </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="libraries">
+                        <div class="tab-pane" id="com">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/JQuery.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Bootstrap.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/React.svg" class="d-flex" alt="Gulp">   
-                                </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="preproc">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/SASS.svg" class="d-flex" alt="SASS">   
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Less.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Gulp.svg" class="d-flex" alt="Gulp">   
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./Imagens/Thumbs/Grunt.svg" class="d-flex" alt="Grunt">   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="frameworks">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Vue.svg" class="d-flex" alt="SASS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Angular.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Tailwind.svg" class="d-flex" alt="LESS">   
-                                </div>
+                        <div class="tab-pane" id="design">
+                            <div class="row">      
                             </div>
                         </div>
                         <div class="tab-pane" id="tests">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="./Imagens/Thumbs/Jest.svg" class="d-flex" alt="SASS">   
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="./Imagens/Thumbs/Cypress.svg" class="d-flex" alt="LESS">   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="tools">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Git.svg" class="d-flex" alt="SASS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/GitHub.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/RTK.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Figma.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Notion.svg" class="d-flex" alt="LESS">   
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="./Imagens/Thumbs/Trello.svg" class="d-flex" alt="LESS">   
-                                </div>
+                            <div class="row">             
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+    -->
         <!--#endregion skills  -->
     <!--#region portfolio  -->
     <section id="portfolio" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <h2 class="section-title text-center mb-15 pb-15">Portfolio</h2>
+                <h2 class="section-title text-center mb-15 pb-15"><i class="bi bi-laptop me-2"></i> Portfolio</h2>
                 <hr>
                 <div class="row">  
                     <div class="col-md-4">
@@ -301,7 +246,7 @@
         <section id="contato">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Fale Comigo</h2>
+                    <h2 class="section-title text-center"><i class="bi bi-chat-square me-3"></i>Fale Comigo</h2>
                     <hr>
                     <div class="row">
                         <div class="col-md-7 center-content">
@@ -323,7 +268,7 @@
                                 <textarea name="mensagem"id="mensagem" placeholder="Digite sua mensagem aqui" class="form-control" ></textarea>
                                 </div>
                                 <div class="center-content">
-                                    <button type="submit" class="btn">Enviar</button>
+                                    <button type="submit" class="btn">Enviar<i class="bi bi-send ms-2"></i></button>
                                 </div>
                             </form>
                         </div>
@@ -336,7 +281,7 @@
                                 </ul>
                             </div>
                             <div class="row">
-                                <h3 class="section-title fs-4 mt-5 social-links">E-mail</h3>
+                                <h3 class="section-title fs-4 mt-5 social-links"><i class="bi bi-envelope me-2"></i>E-mail</h3>
                                 <a href="mailto:carolineurb.dev@outlook.com" class="social-links email-link">carolineurb.dev@outlook.com</a>
                             </div>
                         </div>
@@ -349,8 +294,8 @@
     <!--#endregion main  -->
     <!--#region footer  -->
     <footer> 
-        <p>&copy Todos direitos reservados 2024 - Dreamfyre Studios </p>
-        <p>Site feito com Bootstrap</p>
+        <a href="#home" class="footer-content">&copy Todos direitos reservados 2024 - Dreamfyre Studios</a>
+        <p class="footer-content">Site feito com Bootstrap<i class="bi bi-bootstrap-fill ms-2"></i></p>
     </footer>
     <!--#endregion footer  -->  
     <!-- #region Icons-->
@@ -358,7 +303,7 @@
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <!-- #endregion Icons-->
     <!-- #region Bootstrap-->
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- #endregion Bootstrap-->
 </body>
 </html>
