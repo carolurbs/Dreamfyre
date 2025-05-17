@@ -113,12 +113,7 @@ hr{
     border: 2px solid #ef4b62;
     border-radius: 50%
 }
-.tab-content img
-{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-}
+
 aside{
     border: 1px solid #ef4b62;
     border-radius: 20px;
@@ -186,8 +181,9 @@ textarea.form-control
 {
     background-color: #434343;
     color: #fff;
-    outline: 2px solid #ef4b62;
-    border: 1px solid #262626;
+    outline: none;
+    border: 1px solid #ef4b62;
+    box-shadow:0 0 0;
 }
 .form-control::placeholder
 {
@@ -227,13 +223,8 @@ footer a {
     text-decoration: none;
     cursor: pointer;
 }
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-    margin: 20px;
-}
+
+
 @media screen and (max-width:767px){
 .navbar-brand img
 {
